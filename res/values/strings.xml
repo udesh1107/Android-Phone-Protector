@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name_first">ANDROID EDITOR</string>
+    
+    <string name="app_name">Security Via SMS</string>
+    <string name="app_desc">When your phone is lost or stolen you will be able to use someone else phone to retrieve the GPS coordinates at your phone location to help you find it via a SMS include <B>Verify</B> Code set by yourself.</string>
+    <string name="app_help">I\'ve entered Heydude as default for the verify code. Now you can send a text message with Heydude as the body of the text as shown below:</string>
+    <string name="app_tip">It can be changed it to anything by clicking button "Change Verify Code".</string>
+    <string name="notify_text">Phone Finder Notice:</string>
+    <string name="number_button_label">SET PHONE NUMBER</string>
+        <string name="alert_dialog_sms_title">  SET SMS KEY  </string>
+        <string name="alert_dialog_number_title">SET PHONE NUMBER</string>
+        <string name="alert_sms_box">New SMS KEY :</string>
+        <string name="alert_number_box">New PHONE NUMBER :</string>
+        <string name="alert_dialog_ok">OK</string>
+    	<string name="alert_dialog_cancel">Cancel</string>
+    <string name="sms_button_label"> SET SMS KEY </string>
+   
+    
+    
+</resources>

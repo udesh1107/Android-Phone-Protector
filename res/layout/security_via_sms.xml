@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/screen" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:orientation="vertical">
+                <ImageView android:id="@+id/ImageView01" android:src="@drawable/icon_large"
+                        android:layout_width="fill_parent" android:layout_height="wrap_content">
+                </ImageView>
+                <LinearLayout android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal">
+
+                        <TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="@string/app_desc" />
+                        <LinearLayout android:id="@+id/LinearLayout02"
+                                android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:id="@+id/TextView01"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                        android:text="VERIFY CODE:" android:minWidth="40dip"
+                                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                                <TextView android:id="@+id/textview_verify_code"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                        android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:id="@+id/sms_key_change_button" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="@string/sms_button_label" />
+                        <Button android:id="@+id/predefine_number_change_button" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="@string/number_button_label" />
+                        </LinearLayout>
+                        <TextView android:id="@+id/TextView01" android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" android:text="@string/app_help" />
+                        <TextView android:id="@+id/TextView_HELP" android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" android:text=""
+                                android:gravity="center_horizontal"/>
+                        <TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:text="@string/app_tip" />
+                </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+
