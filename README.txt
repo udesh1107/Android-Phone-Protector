@@ -1,0 +1,4 @@
+This is an Android application which will protect your phone being theft. this will give you only basic functions and this can be further developed thinking many other areas.
+If the phone get lost we can send a text message with a special pass code and my application will be triggered from it. I have an idea to develop this If someone has changed the sim. after triggering the app it will automatically identify the location and send it to the given number from a text message.
+This is the basic Idea of the project. In developing this app I used Eclipse IDE.
+for further clarification feel free to contact me. la.udesh1987@gmail.com , udesh.liyanaarachchi@gmail.com
